@@ -8,7 +8,7 @@ class Example{
     array_push($this->tablica, "To jest ".($i+1)." linijka tekstu</br>");
 
     }
-        
+       
     }
     public function display(){
         foreach($this->tablica as $element) {
