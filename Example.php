@@ -5,13 +5,13 @@ class Example{
         $this->tablica = [];
     
         for($i=0;$i<10;$i++) {
-    array_push($tablica, "To jest".($i+1)."linijka tekstu</br>");
+    array_push($this->tablica, "To jest ".($i+1)." linijka tekstu</br>");
 
     }
         
     }
     public function display(){
-        foreach($tablica->tablica as $element) {
+        foreach($this->tablica as $element) {
     echo $element;
 }
     }
